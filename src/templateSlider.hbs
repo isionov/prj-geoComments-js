@@ -1,0 +1,14 @@
+
+    {{#each items}}
+    <li class="list-elem" data-id="{{number}}">
+        <div class="slider-place">{{place}}</div>
+        <div class="slider-adr">{{adr}}</div>
+        <div class="slider-comment">{{comment}}</div>
+        <div class="slider-date">{{date}}</div>
+        <ul class="paginator">
+            {{#each ../items}}
+            <li class="paginator-elem" data-paginator="{{number}}">{{number}}</li>
+            {{/each}}
+        </ul>
+    </li>
+    {{/each}}

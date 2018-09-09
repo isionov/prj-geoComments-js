@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <script src="http://vk.com/js/api/openapi.js"></script>
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <div id="map"></div>
+        <div class="wrapper">
+            <div class="header">
+                <div class="svg-mark">
+                    <svg width="15" height="15">
+                        <use xlink:href="img/sprite.svg#loupe"></use>
+                    </svg>
+                </div>
+                <div class="adress">Default</div>
+                <div class="svg-close">
+                    <svg width="25" height="25">
+                        <use xlink:href="img/sprite.svg#close"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="maincontent">
+                <div class="list-comments">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="title">ваш отзыв</div>
+                <form action="#" class="user-form">
+                    <input id="input-name" type="text" placeholder="Ваше имя">
+                    <input id="input-place" type="text" placeholder="Укажите место">
+                    <textarea id="input-comment" placeholder="Ваш отзыв"></textarea>
+                    <button class="add">Сохранить</button>
+                </form>
+            </div>
+        </div>
+        <div class="slider" style="left: -9999px">
+            <div class="slider-close">x</div>
+            <div class="back">&lt;</div>
+            <div class="slider-content">
+                <div class="wrap-ul">
+                    <ul class="slider-list" style="left:0%">
+                        <li class="list-elem">
+                            <div class="slider-place">Default</div>
+                            <div class="slider-adr">Default</div>
+                            <div class="slider-comment">Default</div>
+                            <div class="slider-date">Default</div>
+                            <ul class="paginator">
+                                <li class="paginator-elem paginator--current">1</li>
+                                <li class="paginator-elem">2</li>
+                                <li class="paginator-elem">3</li>
+                            </ul>
+                        </li>
+                        <li class="list-elem">2</li>
+                        <li class="list-elem">3</li>
+                    </ul>    
+                </div>
+            </div>
+            <div class="forward">&gt;</div>
+        </div>
+    </body>
+
+</html>
