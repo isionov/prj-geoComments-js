@@ -13,6 +13,7 @@
 - Handlebars
 - SCSS
 - Яндекс карты API
+- WebPack 3
 
 ## Старт проекта
 
